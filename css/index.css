@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --color: #b09655;
+}
+
+body {
+  width: 1239px;
+  margin: 0 0;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+.navbar {
+  margin: 0 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .container {
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .logo {
+  margin-left: 8.5em;
+  font-weight: bold;
+  font-size: 0.9em;
+  color: var(--color);
+}
+
+.navbar a {
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-right: 3.5em;
+}
+
+.navbar .current {
+  color: var(--color);
+}
+
+.sec1 .bgpic1 {
+  background-image: url(../images/image3.png);
+  top: -50px;
+  height: 1330px;
+  width: 1239px;
+  position: fixed;
+}
+
+.sec1 .words {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0.4em;
+  position: relative;
+  top: 320px;
+}
+
+.sec1 .words p {
+  margin: 0.5em;
+}
+
+.sec2 {
+  position: relative;
+  background: white;
+  top: 500px;
+}
+
+.sec2 .container {
+  padding: 3em 0 3em 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sec2 .container .left-col {
+  position: relative;
+  padding: auto 3em auto 3em;
+  color: white;
+}
+
+.sec2 .container .left-col .subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  letter-spacing: 0.4em;
+}
+
+.sec2 .container .left-col .text {
+  text-align: center;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+}
+
+.sec2 .container .left-col .button {
+  padding: 1em 5em;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1em;
+  position: absolute;
+  top: 400px;
+  left: 85px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.sec2 .container .right-col {
+  position: relative;
+  left: 4em;
+}
+/*# sourceMappingURL=index.css.map */
