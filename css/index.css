@@ -192,22 +192,25 @@ body ul {
 .sec4 {
   top: -500px;
   position: relative;
+  height: 400px;
 }
 
 .sec4 .bgpic2 {
   background-image: url(../images/image2.png);
   background-attachment: fixed;
-  background-position-x: 100px;
+  background-position-x: 80px;
   position: relative;
-  height: 1330px;
+  height: 800px;
   width: 1079px;
-  left: 100px;
+  left: 80px;
 }
 
 .sec4 .right-col {
-  position: relative;
+  position: absolute;
   padding: auto 3em auto 3em;
   color: white;
+  left: 55%;
+  top: 5%;
 }
 
 .sec4 .right-col .subtitle {
@@ -215,7 +218,7 @@ body ul {
   font-size: 2em;
   position: absolute;
   top: 100px;
-  left: 80px;
+  left: 100px;
   letter-spacing: 0.4em;
 }
 
@@ -223,9 +226,10 @@ body ul {
   text-align: center;
   position: absolute;
   top: 250px;
-  left: 100px;
-  letter-spacing: 0.1em;
+  left: 125px;
+  letter-spacing: 0.2em;
   font-size: 1.2em;
+  font-weight: 700;
 }
 
 .sec4 .right-col .button {
@@ -238,4 +242,70 @@ body ul {
   border: 1px solid white;
   cursor: pointer;
 }
-/*# sourceMappingURL=index.css.map */
+
+.sec5 {
+  position: relative;
+  width: 1079px;
+  padding-bottom: 2em;
+  left: 80px;
+}
+
+.sec5 .container {
+  padding: 1em 8em 4em 8em;
+  color: white;
+  background-color: var(--color);
+  height: 80px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.sec5 .container .left-col {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.sec5 .container .left-col .part1 {
+  position: relative;
+  top: 1em;
+  width: 300px;
+  right: 10px;
+}
+
+.sec5 .container .left-col .part2 {
+  margin: 0;
+  position: relative;
+  top: 30px;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  height: 50px;
+  width: 50%;
+}
+
+.sec5 .container .left-col .part2 p {
+  position: relative;
+  top: -20px;
+}
+
+.sec5 .container .left-col .part3 {
+  position: relative;
+  left: 10px;
+  width: 400px;
+  top: 1em;
+}
+
+.sec5 .container .right-col {
+  position: relative;
+  top: 2em;
+  border: 1px solid white;
+  cursor: pointer;
+  height: 50%;
+  padding: .5em 2em;
+}
