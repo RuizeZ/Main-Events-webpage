@@ -44,6 +44,9 @@ body{
 }
 
 .sec1{
+    margin-top: 83px;
+    width: 1239px;
+    height: 650px;
     .bgpic1{
         background-image: url(../images/image3.png);
         height: 1330px;
@@ -69,13 +72,12 @@ body{
 .sec2{
     position: relative;
     background: white;
-    top:-500px;
+    // top:-500px;
     .container{
         padding: 3em 0 3em 3em;
         display: flex;
         .left-col{
             position: relative;
-            padding: auto 3em auto 3em;
             color: white;
             .subtitle{
                 font-family: 'Roboto', sans-serif;
@@ -113,7 +115,7 @@ body{
 .sec3{
     position: relative;
     background: white;
-    top:-500px;
+    // top:-500px;
     .container{
         padding-top: 10em;
         // padding-bottom: 3em;
@@ -164,9 +166,10 @@ body{
     }
 }
 .sec4{
-    top: -500px;
+    // top: -500px;
     position: relative;
-    height: 400px;
+    height: 800px;
+    margin-bottom: 100px;
     .bgpic2{
         background-image: url(../images/image2.png);
         background-attachment: fixed;
@@ -178,7 +181,6 @@ body{
     }
     .right-col{
         position: absolute;
-        padding: auto 3em auto 3em;
         color: white;
         left: 55%;
         top:5%;
@@ -213,59 +215,61 @@ body{
 }
 .sec5{
     position: relative;
+    // top: -400px;
     width: 1079px;
-    padding-bottom: 2em;
+    // padding-bottom: 2em;
     left:80px;
+    height: 150px;
     .container{
-        padding: 1em 8em 4em 8em;
+        font-family: 'Roboto', sans-serif;
+        height: 150px;
         color: white;
         background-color: var(--color);
-        height:80px;
+        height:150px;
         margin:0 auto;
         display: flex;
         place-content: space-between;
         .left-col{
-            // padding: auto 2em;
-            width: 50%;
+            font-size: 0.8em;
             display: flex;
             place-content: space-between;
+            margin-left: 100px;
+            margin-top: 20px;
             
             .part1{
                 position: relative;
-                top: 1em;
-                width:300px;
-                right: 10px;
+                top:10px;
             }
             .part2{
-                margin: 0;
+                margin-left: 20px;
+                margin-right: 20px;
                 position: relative;
-                top:30px;
+                top:20px;
                 padding-left: 1em;
                 padding-right: 1em;
                 border-left: 1px solid white;
                 border-right: 1px solid white;
                 height: 50px;
-                width: 50%;
                 
                 p{
                     position: relative;
-                    top:-20px;
+                    top:-10px;
                 }
             }
             .part3{
                 position: relative;
-                left: 10px;
-                width: 400px;
-                top: 1em
+                top:10px;
             }
         }
         .right-col{
+            font-size: 0.9em;
             position: relative;
-            top: 2em;
+            margin-right: 150px;
+            margin-top: 50px;
             border: 1px solid white;
             cursor: pointer;
-            height: 50%;
-            padding: .5em 2em;
+            height: 50px;
+            padding: 0em 2em 0em 2em;
         }
     }
 }

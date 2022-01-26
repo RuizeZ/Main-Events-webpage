@@ -53,6 +53,12 @@ body ul {
   color: var(--color);
 }
 
+.sec1 {
+  margin-top: 83px;
+  width: 1239px;
+  height: 650px;
+}
+
 .sec1 .bgpic1 {
   background-image: url(../images/image3.png);
   height: 1330px;
@@ -79,7 +85,6 @@ body ul {
 .sec2 {
   position: relative;
   background: white;
-  top: -500px;
 }
 
 .sec2 .container {
@@ -91,7 +96,6 @@ body ul {
 
 .sec2 .container .left-col {
   position: relative;
-  padding: auto 3em auto 3em;
   color: white;
 }
 
@@ -132,7 +136,6 @@ body ul {
 .sec3 {
   position: relative;
   background: white;
-  top: -500px;
 }
 
 .sec3 .container {
@@ -190,9 +193,9 @@ body ul {
 }
 
 .sec4 {
-  top: -500px;
   position: relative;
-  height: 400px;
+  height: 800px;
+  margin-bottom: 100px;
 }
 
 .sec4 .bgpic2 {
@@ -207,7 +210,6 @@ body ul {
 
 .sec4 .right-col {
   position: absolute;
-  padding: auto 3em auto 3em;
   color: white;
   left: 55%;
   top: 5%;
@@ -246,15 +248,16 @@ body ul {
 .sec5 {
   position: relative;
   width: 1079px;
-  padding-bottom: 2em;
   left: 80px;
+  height: 150px;
 }
 
 .sec5 .container {
-  padding: 1em 8em 4em 8em;
+  font-family: 'Roboto', sans-serif;
+  height: 150px;
   color: white;
   background-color: var(--color);
-  height: 80px;
+  height: 150px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,49 +266,50 @@ body ul {
 }
 
 .sec5 .container .left-col {
-  width: 50%;
+  font-size: 0.8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   place-content: space-between;
+  margin-left: 100px;
+  margin-top: 20px;
 }
 
 .sec5 .container .left-col .part1 {
   position: relative;
-  top: 1em;
-  width: 300px;
-  right: 10px;
+  top: 10px;
 }
 
 .sec5 .container .left-col .part2 {
-  margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
   position: relative;
-  top: 30px;
+  top: 20px;
   padding-left: 1em;
   padding-right: 1em;
   border-left: 1px solid white;
   border-right: 1px solid white;
   height: 50px;
-  width: 50%;
 }
 
 .sec5 .container .left-col .part2 p {
   position: relative;
-  top: -20px;
+  top: -10px;
 }
 
 .sec5 .container .left-col .part3 {
   position: relative;
-  left: 10px;
-  width: 400px;
-  top: 1em;
+  top: 10px;
 }
 
 .sec5 .container .right-col {
+  font-size: 0.9em;
   position: relative;
-  top: 2em;
+  margin-right: 150px;
+  margin-top: 50px;
   border: 1px solid white;
   cursor: pointer;
-  height: 50%;
-  padding: .5em 2em;
+  height: 50px;
+  padding: 0em 2em 0em 2em;
 }
+/*# sourceMappingURL=index.css.map */
